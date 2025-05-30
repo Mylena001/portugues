@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8" />
@@ -14,14 +14,14 @@
     }
 
     header {
-      background-color: #2e86c1;
+      background-color: #f859b3f6;
       color: white;
       padding: 20px 10px;
       text-align: center;
     }
 
     nav {
-      background-color: #1b4f72;
+      background-color: #f3a0cff6;
       display: flex;
       justify-content: space-around;
       padding: 10px;
@@ -44,7 +44,7 @@
     footer {
       text-align: center;
       padding: 20px;
-      background-color: #2e86c1;
+      background-color: #ff94d6;
       color: white;
     }
 
@@ -64,13 +64,13 @@
     }
 
     button {
-      background-color: #2e86c1;
+      background-color: #ff94d6;
       color: white;
       cursor: pointer;
     }
 
     button:hover {
-      background-color: #1b4f72;
+      background-color: #ff94d6;
     }
   </style>
 </head>
@@ -113,8 +113,38 @@
   <section id="videoaulas">
     <h2>Vídeo Aulas</h2>
     <p>Assista às aulas explicativas sobre os principais temas da língua portuguesa:</p>
-    <iframe src="iframe width="560 height="315" src="https://www.youtube.com/embed/Osf0nqvWGkY?si=kaoMnAP9EwQ-R6Vp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <iframe src="https://youtu.be/qbe7QzZogjY?list=PLNM2T4DNzmq4zmFvucyiGrpuad9SzP-_y" allowfullscreen></iframe>
+
+    <h1>Linguagem, língua e gramática - Língua Portuguesa - </h1>
+     <iframe width="400" height="315"
+     src="https://www.youtube.com/embed/qbe7QzZogjY?si=8wa1ZXszcXmlwoqD" 
+     title="YouTube video player" 
+     frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+       referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+    </iframe>
+    <h1>Fonema, letra e seus encontros</h1>
+    <iframe width="400"
+     height="315" 
+     src="https://www.youtube.com/embed/Osf0nqvWGkY?si=-ZHpapwwIxb5OJWe"
+      title="YouTube video player"
+       frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+         referrerpolicy="strict-origin-when-cross-origin" 
+         allowfullscreen>
+        </iframe>
+
+        <h1>Tonicidade e acentuação </h1>
+        <iframe width="400" 
+        height="315"
+         src="https://www.youtube.com/embed/vW8SsQ6ecs0?si=MZpnBhCTgjIyOumm" 
+         title="YouTube video player" 
+         frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+           referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+        </iframe>
+
   </section>
 
   <section id="atividades">
