@@ -1,8 +1,9 @@
-    <!DOCTYPE html>
+
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portal de Português - Estude e Aprenda!</title>
   <style>
     body {
@@ -75,10 +76,32 @@
   </style>
 </head>
 <body>
-  <header>
+
+  <style>
+    body { font-family: Arial, sans-serif; background: #f4f4f4; padding: 20px; }
+    h1 { color: #333; }
+    a.button {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      background: #4285f4;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+        <header>
     <h1>Portal de Português</h1>
     <p>Redação, Gramática, Literatura e muito mais!</p>
   </header>
+
+  <a href="gramatica.html" class="button">Gramática</a>
+  <a href="ortografia.html" class="button">Ortografia</a>
+  <a href="pontuacao.html" class="button">Pontuação</a>
+  <a href="quiz.html" class="button">Quiz Interativo</a>
+
 
   <nav>
     <a href="#redacao">Redação</a>
@@ -168,19 +191,58 @@ O português pertence à família das línguas indo-europeias, em que se inclui 
 
   </section>
 
-  <section id="atividades">
-    <h2>Atividades Interativas</h2>
-    <p>Teste seus conhecimentos:</p>
-    <form>
-      <label>1. Qual é a forma correta?</label>
-      <input type="radio" name="q1"> Há muitos anos atrás<br>
-      <input type="radio" name="q1" checked> Há muitos anos<br>
+  <section id="atividades"> 
+    <title>Quiz de Português</title>
+  <style>
+         <title>Quiz de Português</title>
+  <style>
+    body { font-family: Arial; padding: 20px; background: #f0f0f0; }
+    .pergunta { margin-bottom: 20px; }
+    .resultado { font-weight: bold; margin-top: 20px; }
+    button { padding: 10px 15px; }
+    a { text-decoration: none; color: blue; }
+  </style>
+</head>
+<body>
 
-      <label>2. Qual frase está correta?</label>
-      <input type="radio" name="q2"> Fazem dois anos que estudo<br>
-      <input type="radio" name="q2" checked> Faz dois anos que estudo<br>
+  <h1>Quiz de Língua Portuguesa</h1>
 
-      <button type="button" onclick="alert('Simulação: Você acertou 2 de 2!')">Verificar Respostas</button>
+  <div class="pergunta">
+    <p>1. Qual é o sujeito da frase: "Chove muito no verão."?</p>
+    <input type="radio" name="q1" value="a"> O verão<br>
+    <input type="radio" name="q1" value="b"> Implícito<br>
+    <input type="radio" name="q1" value="c"> Sujeito inexistente<br>
+  </div>
+
+  <div class="pergunta">
+    <p>2. Em "Maria gosta de ler", qual é a classe da palavra "gosta"?</p>
+    <input type="radio" name="q2" value="a"> Substantivo<br>
+    <input type="radio" name="q2" value="b"> Verbo<br>
+    <input type="radio" name="q2" value="c"> Adjetivo<br>
+  </div>
+
+  <button onclick="verificarRespostas()">Verificar Respostas</button>
+
+  <div class="resultado" id="resultado"></div>
+
+  <p><a href="index.html">← Voltar ao menu principal</a></p>
+
+  <script>
+    function verificarRespostas() {
+      const respostas = { q1: 'c', q2: 'b' };
+      let score = 0;
+
+      for (let q in respostas) {
+        let respostaUsuario = document.querySelector(`input[name="${q}"]:checked`);
+        if (respostaUsuario && respostaUsuario.value === respostas[q]) {
+          score++;
+        }
+      }
+
+      document.getElementById("resultado").textContent = `Você acertou ${score} de 2 perguntas.`;
+    }
+  </script>
+
     </form>
   </section>
 
@@ -207,5 +269,7 @@ O português pertence à família das línguas indo-europeias, em que se inclui 
   <footer>
     <p>&copy; 2025 Portal de Português. Todos os direitos reservados.</p>
   </footer>
+
+
 </body>
 </html>
