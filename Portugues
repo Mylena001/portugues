@@ -1,4 +1,4 @@
-  <!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8" />
@@ -101,6 +101,27 @@
 
   <section id="gramatica">
     <h2>Gramática</h2>
+    <h1>Tipos de Gramática</h1>
+    <p>Há 4 tipos de gramáticas: normativa, descritiva, histórica e comparativa. Ao mesmo tempo, a gramática da língua portuguesa é dividida em fonologia, morfologia e sintaxe. Nessa divisão, há gramáticos que incluem a semântica.</p>
+    
+<h1>1. Normativa</h1>
+<p>A gramática normativa é sinônimo de norma culta. Ela estabelece os usos certos e errados em oposição ao uso popular.
+Isso porque, apesar de ser compreensível, no cotidiano, há sérias transgressões ao modelo estabelecido.
+Essa é a gramática oficial e, portanto, é a ensinada nas escolas.</p>
+
+<h1>2. Descritiva</h1>
+<p>A gramática descritiva descreve e registra os aspectos fonético, morfossintático e léxico da língua, mas sem definir as suas normas.</p>
+
+<h1>3. Histórica</h1>
+<p>A gramática histórica trata justamente da história da língua ao longo do tempo, desde a sua origem às transformações, ou seja, é diacrônica.</p>
+
+<h1>4. Comparativa</h1>
+<p>A gramática comparativa estuda a gramática fazendo uma comparação com as gramáticas pertencentes às mesmas famílias linguísticas.
+O português pertence à família das línguas indo-europeias, em que se inclui as línguas itálicas. São exemplos as línguas espanhola e francesa.</p>
+
+
+
+
     <ul>
       <li>Ortografia e acentuação</li>
       <li>Uso da vírgula</li>
